@@ -1,0 +1,18 @@
+# Ignore Python virtual environments
+venv/
+*.pyc
+__pycache__/
+
+# Ignore local environment variables
+.env
+
+# Ignore git-related files
+.git
+.gitignore
+
+# Ignore package manager caches
+pip-wheel-metadata/
+*.egg-info/
+
+# Ignore generated credentials from google-github-actions/auth
+gha-creds-*.json
