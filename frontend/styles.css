@@ -1,0 +1,149 @@
+:root {
+    --primary: #445D48;
+    --primary-light: #45a049;
+    --surface: #e7fbe6;
+    --text: #f6fff8;
+    --accent: #001524;
+    --accent-red: #c56161;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--surface); /* Not visible, this is a fallback if the background image doesn't load */
+    background-image: url('/Football-Analysis-Tool/background_pic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)     
+    ) fill 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+nav {
+    width: 100%;
+    background-color: var(--accent);
+    display: flex;
+    align-items: right;
+    padding: 0.5rem;
+}
+
+nav button {
+    background-color: var(--primary);
+    color: white;
+}
+
+nav button:hover {
+    background-color: var(--primary-light);
+}
+
+nav span {
+    color: var(--text);
+    margin: auto;
+    display: inline;
+}
+
+h1 {
+    color: var(--text);
+}
+
+p {
+    color: var(--text);
+}
+
+label {
+    color: var(--text);
+}
+
+#football-pitch {
+    background-image: url('/Football-Analysis-Tool/football_pitch.jpg'); /* Use your image path */
+    background-size: cover;
+    width: 800px;
+    height: 500px;
+    position: relative;
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: var(--primary-light);
+}
+
+table {
+    color: var(--text);
+}
+
+#download-link {
+    display: none;
+    padding: 10px;
+    background-color: var(--accent);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#download-link:hover {
+    background-color: var(--accent);
+}
+
+.match-upload-form {
+  background-color: var(--accent);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+  max-width: 400px;
+}
+
+.match-upload-form div {
+  margin-bottom: 15px;
+}
+
+.match-upload-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--text);
+}
+
+.match-upload-form input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid var(--primary);
+  border-radius: 4px;
+  background-color: var(--surface);
+}
+
+.match-upload-form button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.error-message {
+  color: var(--accent-red);
+  margin-bottom: 10px;
+}
+
+.success-message {
+  color: var(--primary-light);
+  margin-bottom: 10px;
+  font-weight: bold;
+}
