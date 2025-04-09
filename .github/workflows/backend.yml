@@ -55,7 +55,7 @@ on:
       - main
 
 env:
-  PROJECT_ID: football-analysis-tool # TODO: update Google Cloud project id
+  PROJECT_ID: football-analysis-tool-456218 # TODO: update Google Cloud project id
   GAR_LOCATION: europe-north1 # TODO: update Artifact Registry location
   REPOSITORY: fpa # TODO: update Artifact Registry repository name
   SERVICE: fpa # TODO: update Cloud Run service name
