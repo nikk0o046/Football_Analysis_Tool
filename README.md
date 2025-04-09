@@ -49,7 +49,7 @@ We have set up a Supabase project with GitHub OAuth enabled. From a user we get 
 - refactor xG calculations to be more modular to allow different pitch sizes based on screens sizes
 
 #### long-term
-- Better state management in the frontend - dont modify global actions array
+- Better state management in the frontend - dont modify global actions array.
 - Decision between vanilla JS / React, no hybrid
 - DB for storage
 - Tests
