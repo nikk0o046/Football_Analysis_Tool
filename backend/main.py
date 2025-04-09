@@ -132,7 +132,7 @@ app.include_router(matches_router)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["http://localhost:5173", "https://nikk0o046.github.io"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
