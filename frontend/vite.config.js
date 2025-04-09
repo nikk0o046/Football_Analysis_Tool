@@ -6,5 +6,5 @@ export default defineConfig({
   server: {
     open: true
   },
-  base: '/Football-Analysis-Tool/' 
+  base: '/Football_Analysis_Tool/' 
 })
